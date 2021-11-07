@@ -20,10 +20,6 @@ timeBlock();
 
 // Save text put into the block
 var saveBtn = $(".saveBtn")
-// $("saveBtn").localStorage.setItem();
-
-// let time = $(this).siblings(".hour").text();
-// let usrTxt = $(this).siblings(".description").val();
 
 saveBtn.on("click", function(){
     let time = $(this).siblings(".hour").text();
@@ -47,6 +43,7 @@ function storeEl(){
 storeEl();
 
 // The GRAVEYARD
+// Message to the Grader:  Please enjoy all the many failed attempts at trying to make this work!
 // getting current, past and future hours to highlight appropriately
 // var ninthHour = $("hour-9-number").text();
 
@@ -123,3 +120,8 @@ storeEl();
     // else {
     //     currentHour.closest().addClass("past")
     //     };
+
+    // $("saveBtn").localStorage.setItem();
+
+// let time = $(this).siblings(".hour").text();
+// let usrTxt = $(this).siblings(".description").val();
